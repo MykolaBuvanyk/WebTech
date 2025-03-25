@@ -1,0 +1,76 @@
+﻿# .NET Core / ASP.NET Core
+*.csproj.user
+*.pdb
+*.dll
+*.exe
+bin/
+obj/
+*.log
+*.suo
+*.user
+*.sln.iml
+*.aps
+*.ilk
+*.tlog
+*.idb
+*.exp
+*.lib
+*.ncb
+*.opendb
+*.cache
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Visual Studio
+.vscode/
+.vs/
+*.code-workspace
+*.vsidx
+*.vssettings
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Згенеровані файли
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rchive/
+[Bb]uild/
+[Tt]est[Rr]esults/
+
+# Тимчасові файли
+*.tmp
+*.bak
+*.swp
+*~
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Локальні конфігурації
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+appsettings.Development.json
+
+# Фронтенд (wwwroot)
+wwwroot/node_modules/  # Якщо ви додаєте залежності в wwwroot
+wwwroot/dist/
+wwwroot/build/
+wwwroot/*.min.js
+wwwroot/*.min.css
+
+# Інші непотрібні файли
+*.pid
+*.seed
+*.pid.lock
